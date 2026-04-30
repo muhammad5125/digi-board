@@ -1,0 +1,17 @@
+{
+  "name": "digi-board",
+  "version": "1.0.0",
+  "description": "University Digital Notice Board with CI/CD",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url ./",
+    "lint:html": "htmlhint \"src/*.html\"",
+    "lint:css": "stylelint \"styles/*.css\""
+  },
+  "devDependencies": {
+    "htmlhint": "^1.0.0",
+    "parcel": "^2.8.3",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}

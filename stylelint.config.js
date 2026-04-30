@@ -1,10 +1,16 @@
-{
-  "tagname-lowercase": true,
-  "attr-lowercase": true,
-  "attr-value-double-quote": true,
-  "doctype-first": true,
-  "tag-pair": true,
-  "id-unique": true,
-  "src-not-empty": true,
-  "alt-require": true
-}
+
+module.exports = {
+  extends: ["stylelint-config-standard"],
+  rules: {
+    "color-hex-length": "short",
+  }
+};
+
+
+
+
+
+
+
+
+
